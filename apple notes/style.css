@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 1rem;
+    cursor: pointer;
+}
+
+.m-t {
+    margin-top: 18px;
+}
+
+.s-m-t {
+    margin-top: 2px;
+}
+
+.size {
+    width: 13px;
+}
+
+.b-r-t {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.b-r-b {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.bg-white {
+    background-color: white;
+    height: 100%;
+}
+
+#notes-name {
+    margin-top: 1rem;
+}
+
+
+/* ===================
+    container
+    ===================== */
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(47 47 47);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.folder_container {
+    /* display: none; */
+}
+
+.note_container {
+    width: 19rem;
+    height: 29rem;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+}
+
+.padding_con {
+    padding: 1rem 0.5rem;
+    height: 92%;
+}
+
+.bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 10px 10px;
+}
+
+.bar:hover {
+    background-color: #ebebeb;
+}
+
+.bar p {
+    font-size: 13px;
+}
+
+.bar div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 9px;
+}
+
+.bottom_bar {
+    width: 100%;
+    padding: 10px 10px;
+    background-color: white;
+    border-top: 1px solid gray;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom_bar p {
+    width: 59%;
+    font-size: 13px;
+    text-align: end;
+}
+
+
+/* note container */
+
+
+/* .notes_container {
+    display: none;
+} */
+
+.back_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.back_bar p {
+    color: #f9da34;
+    font-size: 14px;
+}
+
+.back_bar div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.back_bar div img {
+    width: 1.4rem;
+}
+
+.page_name {
+    display: flex;
+    flex-direction: column;
+}
+
+.page_name div {
+    margin-top: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page_name img {
+    position: absolute;
+    left: 40.4%;
+    width: 1rem;
+}
+
+.page_name input {
+    width: 95%;
+    outline: none;
+    height: 1.8rem;
+    background-color: #d6d6d6;
+    border: none;
+    border-radius: 5px;
+    padding-left: 1.7rem;
+}
+
+
+/* note-edit-container */
+
+.date_time p {
+    font-size: 11px;
+    color: #6d6d6d;
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.inputs_con {
+    margin-top: 1rem;
+    height: 100%;
+}
+
+.inputs_con input {
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 2rem;
+}
+
+.inputs_con textarea {
+    margin-top: 10px;
+    width: 100%;
+    outline: none;
+    border: none;
+    height: 86%;
+}
+
+
+/* notes container */
+
+.notes_container {
+    height: 100%;
+}
+
+.notes_bar {
+    background: white;
+    padding: 10px 10px;
+    font-size: 13px;
+    border-radius: 7px;
+    margin-top: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.notes_bar p {
+    font-size: 12px;
+}
+
+
+/*  final_input_result */
+
+#final_input_result {
+    height: 67%;
+    overflow: auto;
+}
